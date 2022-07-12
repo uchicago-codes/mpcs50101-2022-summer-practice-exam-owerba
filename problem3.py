@@ -2,12 +2,14 @@
 # returns the new string
 
 def replace(original, replace, new):
-    """Docstring here"""
-    #
-    # Your code here
-    #
-
-    return "something here"
+    """Replace part of a string"""
+    original = list(original)
+    for item in original:
+        if item == replace:
+            item = new
+    new_string = "".join(original)
+    #would need to account for punctuation
+    return new string
 
 
 
